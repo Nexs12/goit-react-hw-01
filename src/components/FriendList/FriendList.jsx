@@ -3,9 +3,9 @@ import css from "./FriendList.module.css";
 
 export default function FriendList({ friends }) {
   return (
-    <ul className={css.phather}>
+    <ul className={css.father}>
       {friends.map((friend) => (
-        <li key={friend.id} className={css.childrenLi}>
+        <li key={friend.id} className={css.childLi}>
           <FriendListItem friend={friend} />
         </li>
       ))}

@@ -8,10 +8,10 @@ export default function Profile({
   stats: { followers, views, likes },
 }) {
   return (
-    <div className={css.phather}>
+    <div className={css.father}>
       <div className={css.children}>
         <img className={css.descendantImg} src={image} alt="User avatar" />
-        <p className={css.phatherParagraf}>{name}</p>
+        <p className={css.fatherParagraf}>{name}</p>
         <p className={css.descendantParagraf}>{tag}</p>
         <p className={css.descendantParagraf}>{location}</p>
 
